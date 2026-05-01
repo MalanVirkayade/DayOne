@@ -1,0 +1,14 @@
+{
+  "name": "day-one-playwright",
+  "version": "1.0.0",
+  "description": "Day 1 Playwright learning project",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
